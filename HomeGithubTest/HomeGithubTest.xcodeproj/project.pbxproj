@@ -14,6 +14,7 @@
 		92BE8C1F1B8DF32D00C10B02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BE8C1E1B8DF32D00C10B02 /* Images.xcassets */; };
 		92BE8C221B8DF32D00C10B02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BE8C201B8DF32D00C10B02 /* LaunchScreen.xib */; };
 		92BE8C2E1B8DF32D00C10B02 /* HomeGithubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE8C2D1B8DF32D00C10B02 /* HomeGithubTestTests.m */; };
+		E741D7EB1B8DF5F0009A4247 /* IMGenius.m in Sources */ = {isa = PBXBuildFile; fileRef = E741D7EA1B8DF5F0009A4247 /* IMGenius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		92BE8C271B8DF32D00C10B02 /* HomeGithubTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeGithubTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BE8C2C1B8DF32D00C10B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92BE8C2D1B8DF32D00C10B02 /* HomeGithubTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeGithubTestTests.m; sourceTree = "<group>"; };
+		E741D7E91B8DF5F0009A4247 /* IMGenius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGenius.h; sourceTree = "<group>"; };
+		E741D7EA1B8DF5F0009A4247 /* IMGenius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGenius.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				92BE8C161B8DF32D00C10B02 /* AppDelegate.m */,
 				92BE8C181B8DF32D00C10B02 /* ViewController.h */,
 				92BE8C191B8DF32D00C10B02 /* ViewController.m */,
+				E741D7E91B8DF5F0009A4247 /* IMGenius.h */,
+				E741D7EA1B8DF5F0009A4247 /* IMGenius.m */,
 				92BE8C1B1B8DF32D00C10B02 /* Main.storyboard */,
 				92BE8C1E1B8DF32D00C10B02 /* Images.xcassets */,
 				92BE8C201B8DF32D00C10B02 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				92BE8C1A1B8DF32D00C10B02 /* ViewController.m in Sources */,
 				92BE8C171B8DF32D00C10B02 /* AppDelegate.m in Sources */,
+				E741D7EB1B8DF5F0009A4247 /* IMGenius.m in Sources */,
 				92BE8C141B8DF32D00C10B02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				92BE8C331B8DF32D00C10B02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92BE8C341B8DF32D00C10B02 /* Build configuration list for PBXNativeTarget "HomeGithubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				92BE8C361B8DF32D00C10B02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
